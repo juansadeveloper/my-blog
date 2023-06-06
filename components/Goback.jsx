@@ -1,5 +1,5 @@
 import React from 'react'
-import { IoIosArrowBack } from "react-icons/Io";
+import { IoIosArrowBack } from "react-icons/io";
 import Link from "next/link";
 
 function Goback() {
