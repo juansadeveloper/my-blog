@@ -25,9 +25,9 @@ function Navbar() {
               ☰
           </div>
           {nav ? 
-            <div className=" absolute top-0  left-0 w-screen h-full bg-cyan-700 text-white flex flex-col justify-center items-center gap-10 text-2xl duration-1000 z-50">
-              <div className='absolute top-0 right-0 p-5 mr-2 text-2xl font-medium cursor-pointer' onClick={toggleNavbar}>X</div>
-              <div className='absolute top-0 left-0 mt-5 ml-4 text-2xl font-medium border-b'>Menu</div>
+            <div className="absolute top-0  left-0 w-screen h-full overflow-hidden bg-cyan-700 text-white flex flex-col justify-center items-center gap-10 text-2xl duration-1000 z-50">
+              <div className='absolute top-0 right-0 p-5 mr-2 text-2xl font-medium cursor-pointer overflow-hidden' onClick={toggleNavbar}>X</div>
+              <div className='absolute top-0 left-0 mt-5 ml-4 text-2xl font-medium border-b overflow-hidden'>Menu</div>
               <Link href="/articles" className='hover:font-bold text-white' onClick={toggleNavbar}>Articles</Link>
               <Link href="https://www.instagram.com/juansapereira/" target='_blank'   className='hover:font-bold'>Instagram</Link>
               <Link href="/about-me" className='hover:font-bold' onClick={toggleNavbar}>About me</Link>
