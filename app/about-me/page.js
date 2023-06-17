@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <main className="w-screen flex flex-col items-center h-full bg-[#f5f5f5]">
+    <main className="w-screen flex flex-col items-center h-full sm:h-screen bg-[#f5f5f5]">
         <Navbar></Navbar>
         <h1 className="mt-28 text-3xl md:mt-40 md:text-5xl font-bold px-10">Hi, I´m Santiago</h1>
         <div className="max-w-[780px] mt-12 text-justify font-serif px-10 pb-10 flex flex-col gap-1 text-lg md:text-xl">
