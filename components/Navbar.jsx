@@ -12,8 +12,8 @@ function Navbar() {
   }
 
   return (
-    <div className='w-full bg-cyan-700/[10%] h-[70px] flex items-center justify-between px-6 md:justify-between  z-10'>
-          <div className="text-cyan-700 font-sans font-medium text-lg md:text-2xl ">
+    <div className='w-full bg-cyan-700/[10%] h-[70px] flex items-center justify-between px-32 md:justify-between  z-10'>
+          <div className="text-cyan-700 font-semibold text-lg md:text-xl tracking-wide">
           <Link href="/">SANTIAGO PEREIRA</Link></div>
           <div className='text-cyan-700 hidden md:hidden lg:flex gap-5 font-normal text-xl  '>
               <Link href="/articles" className='hover:font-bold'>Articles</Link>

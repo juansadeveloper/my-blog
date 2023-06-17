@@ -8,14 +8,14 @@ export default function Home() {
     <main className="w-full md:w-screen flex flex-col items-center h-full md:h-screen  bg-red-700 z-50 md:bg-slate-400">
         <Navbar></Navbar>
         <Image 
-          src="/main-background.jpg"
+          src="/main-background-responsive.jpg"
           fill={true}
           alt="background-image"
           style={{objectFit: "cover"}}
           // className="contain"
           >
         </Image>
-        <div className="Z-10 absolute text-5xl bottom-[350px]  md:bottom-[275px] md:right-60 md:text-7xl text-cyan-700 flex flex-col gap-5 ">
+        <div className="Z-10  text-5xl absolute bottom-[40%] md:text-7xl text-cyan-700 flex flex-col gap-5 ">
           <p className={fredericka_the_great.className}>LIVE,</p>
           <p className={fredericka_the_great.className}>WRITE,</p>
           <p className={fredericka_the_great.className}>SHARE.</p>
