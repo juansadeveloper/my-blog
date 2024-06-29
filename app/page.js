@@ -21,7 +21,7 @@ export default function Home() {
           <p className={fredericka_the_great.className}>SHARE.</p>
         </div>
         <div className="w-full bg-white/50 h-40 z-[1] fixed bottom-0 flex justify-center items-center p-5 sm:p-0 text-center">
-          <p className="font-bold md:text-xl text-slate-700">"Failure is the information you need to get where you are going"</p>
+          <p className="font-medium md:text-xl text-slate-700">"Write for pleasure, as if you go out to ride a bike"</p>
           {/* - <span className="text-slate-500">Rick Rubin</span> */}
         </div>
     </main>

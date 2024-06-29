@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar';
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { Fredericka_the_Great } from 'next/font/google';
+import { Lato } from 'next/font/google';
 import Home from './page';
 
 const inter = Inter({ 
@@ -13,6 +14,7 @@ export const fredericka_the_great = Fredericka_the_Great({
   weight: ['400'],
   // variable: '--font-fredericka_the_great' 
   });
+
 
 
 
