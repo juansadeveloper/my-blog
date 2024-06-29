@@ -11,10 +11,10 @@ export default function First() {
         <Navbar></Navbar>
         <div className="flex flex-col items-start md:flex-row md:items-center md:mt-20">
         
-        <h1 className="mt-5 text-4xl font-bold px-10">Moving Forward</h1>
+        <h1 className="mt-5 text-4xl font-bold px-10 max-md:mt-20">Moving Forward</h1>
         </div>
         
-        <div className="max-w-[780px] my-20 text-justify px-10 flex flex-col items-start gap-1">
+        <div className="max-w-[780px] max-md:pb-20 md:my-20 text-justify px-10 flex flex-col items-start gap-1">
             <Goback></Goback>
             <p><b>02/06/2023</b></p>
             <p>This is my first post on internet. I´m very happy. I´ve been thinking about writing online   since 2020 but only after 3 years I really started.</p>
