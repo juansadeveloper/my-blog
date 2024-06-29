@@ -6,7 +6,7 @@ function Goback() {
   return (
     <div>
         <Link href="/articles" className="">
-            <div className=" mt-20 md:mt-5 mb-5   font-bold flex gap-1 justify-center items-center text-cyan-700/50 hover:text-cyan-700" >
+            <div className=" mt-20 md:mt-5 mb-5 bg-neutral-50 pr-4 pl-2 py-2 border text-sm rounded-md   font-bold flex gap-1 justify-start items-center text-cyan-700/50 hover:text-cyan-700" >
                 <IoIosArrowBack  size={20} />
                 <p>Go back</p>
             </div>
