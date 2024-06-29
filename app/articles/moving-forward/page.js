@@ -16,13 +16,8 @@ export default function First() {
         
         <div className="max-w-[780px] max-md:pb-20 md:my-20 text-justify px-10 flex flex-col items-start gap-1">
             <Goback></Goback>
-            <p><b>02/06/2023</b></p>
-            <p>This is my first post on internet. I´m very happy. I´ve been thinking about writing online   since 2020 but only after 3 years I really started.</p>
-            <p>So this post is more an "introduction" about what I´m gonna do here. But to be honest, I don´t really know what I´m gonna write/share here.</p>
-            <p>The thing is if I really want to become a writer I need to start somewhere. Like everything in life. How can you pretend to be a writer if you don´t write? How can you pretend to be a musician if you don´t play music? How can you pretend to be an artist if you don´t create things?</p>
-            <p>Well there is only one way:</p>
-            <p>First you need to start doing things, then you need to continue doing things.</p>
-            <p>Second you need to continue trying and getting better until you get there.</p>
+            <p><b>Not written yet</b></p>
+            
         </div>
         {/* <Articles></Articles> */}
     </main>
