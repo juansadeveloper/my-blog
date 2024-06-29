@@ -7,7 +7,7 @@ function Articles() {
     <h1 className="mt-20 text-3xl md:text-4xl font-bold px-10 text-center">Read more articles</h1>
         <div className="mt-20 font-serif  flex flex-col justify-between items-center gap-5 p-10 rounded-md">
             <Link href="/articles/my-first-post">
-            <div className="rounded flex flex-col md:flex-row md:justify-start md:items-center md:gap-5 w-96 md:w-[720px] md:h-20 bg-[#f5f5f5] shadow hover:shadow-lg px-2 py-5">
+            <div className="rounded flex flex-col md:flex-row md:justify-start md:items-center md:gap-5 w-96 md:w-[720px] md:h-20 bg-[#f5f5f5]  shadow hover:shadow-lg px-2 py-5">
                 <p className="p-1 ml-5">june 02, 2023</p>
                 <p className="p-1 ml-5" ><b>My first post. Why I blog?</b></p>
             </div>

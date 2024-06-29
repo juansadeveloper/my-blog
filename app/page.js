@@ -5,7 +5,7 @@ import { fredericka_the_great } from "./layout"
 
 export default function Home() {
   return (
-    <main className="w-full md:w-screen flex flex-col items-center h-full md:h-screen  z-50 md:bg-slate-400">
+    <main className="w-full md:w-screen flex flex-col items-center h-full md:h-screen  z-50 ">
         <Navbar></Navbar>
         <Image 
           src="/main-background-responsive.jpg"

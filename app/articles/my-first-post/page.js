@@ -12,10 +12,10 @@ export default function First() {
     <main className="w-screen flex flex-col items-start md:items-center md:m-auto sm:h-screen md:h-screen bg-[#f5f5f5]">
         <Navbar></Navbar>
         <div className="flex flex-col items-start md:flex-row md:items-center md:mt-20">
-        <Goback></Goback>
         <h1 className="mt-5 text-4xl font-bold px-10">My first post. Why I blog?</h1>
         </div>
-        <div className="max-w-[780px] my-20 text-justify px-10 flex flex-col gap-1">
+        <div className="max-w-[780px] my-20 text-justify px-10 flex flex-col items-start gap-1">
+            <Goback />
             <p><b>02/06/2023</b></p>
             <p>This is my first post on internet. I´m very happy. I´ve been thinking about writing online   since 2020 but only after 3 years I really started.</p>
             <p>So this post is more an "introduction" about what I´m gonna do here. But to be honest, I don´t really know what I´m gonna write/share here.</p>
